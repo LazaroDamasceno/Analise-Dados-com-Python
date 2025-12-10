@@ -22,5 +22,4 @@ def find_outliers_pandas(df: pd.DataFrame, column: str | int | float) -> pd.Data
     upper_bound = Q3 + 1.5 * IQR
     is_outlier = (df[column] < lower_bound) | (df[column] > upper_bound)
     df['is_outlier'] = is_outlier
-    
     return df

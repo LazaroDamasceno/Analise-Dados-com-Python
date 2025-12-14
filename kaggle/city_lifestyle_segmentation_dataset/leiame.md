@@ -1,1 +1,0 @@
-https://www.kaggle.com/datasets/umuttuygurr/city-lifestyle-segmentation-dataset

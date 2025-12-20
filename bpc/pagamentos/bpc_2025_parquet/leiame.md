@@ -1,1 +1,0 @@
-Os dados vão até o mês 10.

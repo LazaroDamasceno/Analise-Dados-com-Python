@@ -1,10 +1,20 @@
 # Analise-Dados-com-Python
 
 ```
-df = spark.read \
+path = '/Volumes/workspace/default/dados_csv/'
+
+df = spark.read.format("csv") \
     .option("header", "true") \
     .option("sep", ";") \
-    .option("encoding", "ISO-8859-1") \
-    .option("inferSchema", "true") \
-    .csv('dados')
+    .option("encoding", "latin1") \
+    .load(path)
+
+df = spark \
+    .read \
+    .csv(
+        path, 
+        header=True, 
+        encoding='latin1', 
+        sep=';'
+    )
 ```

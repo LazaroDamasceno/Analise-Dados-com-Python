@@ -1,7 +1,7 @@
 # Analise-Dados-com-Python
 
 ```
-path = '/Volumes/workspace/default/dados_csv/'
+path = '/Volumes/workspace/dados_csv/bpc/'
 
 df = spark.read.format("csv") \
     .option("header", "true") \

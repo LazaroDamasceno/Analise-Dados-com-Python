@@ -1,1 +1,0 @@
-Os dados podem ser encontrados em: https://portaldatransparencia.gov.br/download-de-dados/bpc 

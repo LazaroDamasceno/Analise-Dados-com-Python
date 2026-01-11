@@ -1,0 +1,30 @@
+escolaridade = {
+    'analfabetismo': ['Analfabeto'],
+    'alfabetizacao': ['Alfabetizado'],
+    'ensino_fundamental': [
+        '1º Ano - Ensino Fundamental', '2º Ano - Ensino Fundamental', 
+        '3º Ano - Ensino Fundamental', '4º Ano - Ensino Fundamental', 
+        '5º Ano - Ensino Fundamental', '6º Ano - Ensino Fundamental', 
+        '7º Ano - Ensino Fundamental', '8º Ano - Ensino Fundamental', 
+        '9º Ano - Ensino Fundamental', 'Ensino Fundamental Completo'
+    ],
+    'ensino_medio': [
+        '1º Ano - Ensino Médio', '2º Ano - Ensino Médio', 
+        '3º Ano - Ensino Médio', '4º Ano - Ensino Médio (Profissionalizante)', 
+        'Ensino Médio Completo'
+    ],
+    'graduacao': [
+        '1º Semestre - Ensino Superior', '2º Semestre - Ensino Superior', 
+        '3º Semestre - Ensino Superior', '4º Semestre - Ensino Superior', 
+        '5º Semestre - Ensino Superior', '6º Semestre - Ensino Superior', 
+        '7º Semestre - Ensino Superior', '8º Semestre - Ensino Superior', 
+        '9º Semestre - Ensino Superior', '10º Semestre - Ensino Superior', 
+        'Ensino Superior Completo'
+    ],
+    'pos_graduacao': [
+        'Pós-Graduação', 
+        'Mestrado', 
+        'Doutorado', 
+        'Pós-Doutorado'
+    ]
+}
